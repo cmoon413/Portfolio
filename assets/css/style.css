@@ -1,10 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#personal-photo {
+    float: left;
+}
+
+#container {
+    width: 960px;
+}
+
 #leftnav {}
 
 #rightnav {}
 
 #navbar {}
 
-footer {}
+#container {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer {
+    background-color: #666666;
+}
 
 #copyright {}
 
