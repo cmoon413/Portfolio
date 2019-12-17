@@ -1,4 +1,6 @@
 body {
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -7,6 +9,22 @@ header {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    flex: 0 1 auto;
+}
+
+main {
+    flex: 1;
 }
 
 h1,
@@ -19,15 +37,32 @@ h2 {
     float: left;
 }
 
-#container {
-    width: 960px;
+#name-tag {
+    margin: 10px;
+    padding: 10px;
 }
 
-#leftnav {}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-#rightnav {}
+#leftnav {
+    float: left;
+}
 
-#navbar {}
+#rightnav {
+    float: right;
+}
+
+#navbar {
+    list-style-type: none;
+}
+
+#navbar li {
+    display: inline;
+}
 
 #container {
     background-color: #ffffff;
@@ -36,6 +71,7 @@ h2 {
 
 footer {
     background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 }
 
 #copyright {}
