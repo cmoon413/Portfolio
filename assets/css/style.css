@@ -51,7 +51,7 @@ h2 {
 
 #name-tag {
     margin: 10px 0px 0px 0px;
-    padding: 10px;
+    padding: 15px;
 }
 
 #container {
@@ -63,14 +63,16 @@ h2 {
 
 #leftnav {
     float: left;
-    margin-left: 5rem;
+    
 }
 
 #rightnav {
     float: right;
 }
 
-#navbar {}
+#navbar {
+    
+}
 
 #navbar li {
     display: inline;
